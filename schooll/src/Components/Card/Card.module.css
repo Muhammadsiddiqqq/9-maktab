@@ -1,0 +1,257 @@
+.menu{
+   background-image: url(../img/schooll.jpg);
+   width: 100%;
+   height: 841px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   padding-top: 281px; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.menu h1{ 
+   font-family: 'Rubik',sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 64px;
+   line-height: 72px;
+   color: white; 
+   width: 872px;
+   text-align: center;
+}
+.btn2{
+   display: flex;
+   justify-content: center;
+   gap: 106px;
+}
+.btn2 button{
+   background: #4C93FE;
+   border-radius: 4px;
+   height: 50px;
+   width: 267px;
+   border: none;
+   font-family: 'Inter', sans-serif;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 20px;
+   color: white;
+   margin-top: 30px;
+}
+.img{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   margin-top: 50px;
+}
+.img p{ 
+   font-family: 'Inter', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 32px;
+   color: #3476F5;
+}
+.img h1{
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 52px;
+}
+.img h2{
+   font-family: 'Inter', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 36px;
+}
+.box1 img{
+   width: 400px;
+   height: 130px;
+}
+.big1{
+   display: flex;
+}
+.menu3{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 100px;
+}
+.menu3 Image{
+   height: auto;
+}
+.te p{
+   font-family: 'Inter', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 32px;
+   color: #3476F5;
+}
+.te h1{
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 52px;
+   color: #1B1D21;
+}
+.num3{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 30px;
+}
+.status h1{
+   font-family: 'Inter',sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 48px;
+}
+.status p{
+   font-family: 'Inter', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 30px;
+}
+.video{
+   height: 200px;
+   width: 80%;
+   border-radius: 12px;
+   background-color: #4C93FE;
+} 
+.bla{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   margin-top: 100px;
+}
+.bla2{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 50px;
+}
+.div1{
+   width: 50%;
+   display: flex;
+   justify-content: space-around;
+}
+
+@media (max-width:985px){
+   .menu{
+       height: 700px !important;
+   }
+   .menu h1{
+       font-size: 40px;
+       width: 500px;
+   }
+   .btn2{
+       gap: 40px;
+   }
+   .btn2 button{
+       width: 200px;
+   }
+   .num3{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 40px;
+   }
+   .div1{
+       width: 100%;
+       display: flex;
+       justify-content: space-around;
+   }
+}
+
+@media (max-width:850px){
+   .img h2{
+       font-size: 17px !important;
+   }
+   .img h1{
+       font-size: 27px;
+   }
+   .bla h1{
+       font-size: 30px;
+   }
+   .status p{
+       font-size: 18px;
+   }
+   .status h1{
+       font-size: 30px;
+   }
+}
+@media (max-width:750px){
+   .img h2{
+       font-size: 15px !important;
+       width: 400px;
+   }
+   .img h1{
+       font-size: 20px;
+   }
+   .img p{
+       font-size: 15px;
+   }
+   .bla h1{
+       font-size: 20px;
+   }
+   .status p{
+       font-size: 13px;
+   }
+   .status h1{
+       font-size: 25px;
+   }
+}
+
+@media (max-width:650px){
+   .menu h1{
+       font-size: 30px;
+       width: 400px;
+   }
+   .btn2 button{
+       width: 130px;
+       height: 35px;
+       font-size: 15px;
+   }
+}
+
+@media (max-width:450px){
+   .menu h1{
+       font-size: 25px;
+       width: 300px;
+   }
+   .btn2 button{
+       width: 130px;
+       height: 35px;
+       font-size: 15px;
+   }
+  
+}
+@media (max-width:450px){
+   .img h2{
+       font-size: 15px !important;
+       width: 300px;
+   }
+   .img h1{
+       font-size: 20px;
+   }
+   .img p{
+       font-size: 15px;
+   }
+   .bla h1{
+       font-size: 20px;
+   }
+   .status p{
+       font-size: 13px;
+   }
+   .status h1{
+       font-size: 25px;
+   }
+}

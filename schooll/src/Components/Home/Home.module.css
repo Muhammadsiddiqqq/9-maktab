@@ -1,0 +1,1269 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    background-image: url(../img/room.png);
+    width: 100%;
+    height: 841px; 
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: center;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    background-attachment: fixed; 
+}
+.home h1{
+    font-family: 'Rubik',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    color: white;
+    width: 872px;
+    text-align: center;
+    margin-top: 304px;
+}
+.t2 {
+color: grey;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 106px;
+}
+.button button{
+    background: #4C93FE;
+    border-radius: 4px;
+    height: 50px;
+    width: 267px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+    margin-top: 81px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.body1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.t{
+    color: #3476F5;
+    margin-top: 55px;
+}
+.t1{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+}
+.t2{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+}
+.menu2{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 360px;
+    height: 403px;
+}
+.card img{
+    width: 359px;
+    height: auto;
+    padding: 0;
+}
+.card h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    color: #3476F5;
+    margin-top: 10px;
+}
+.card button{
+    background: #4C93FE;
+    border-radius: 4px;
+    width: 123px;
+    height: 30px;
+    border: none;
+    color: white;
+    margin-top: 10px;
+}
+.card1{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+    margin-top: 61px;
+}
+.menu1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button1{
+    background: #3476F5;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: white;
+    height: 56px;
+    width: 188px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 270px !important;
+}
+.img img{
+    width: 536px;
+    height: 670px;
+}
+.rate{
+    height: 330px;
+    width: 370px;
+    border-radius: 8px;
+    background-color:antiquewhite;
+    position: absolute;
+    margin-left: 327px;
+    margin-top: -230px;
+}
+.star{
+    margin-top: 41px;
+}
+.rate2{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.rate1{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 30px;
+}
+.rate1 img{
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+}
+.rate1 h1{
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+}
+.rate p{
+    width: 300px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+.rate1 p{
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color: #8D8E90;
+}
+.p{
+    margin-top: 25px;
+}
+.blok2 p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #3476F5;
+}
+.blok2 h1{
+    width: 508px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #1B1D21;
+}
+.blok2 h5{
+    width: 508px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+}
+.tic{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 27px;
+}
+.tic h2{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+.tic h6{
+    width: 426px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+.text{
+    margin-top: 231px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #3476F5;
+}
+.text h1{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+}
+.rate{
+    background-color: white;
+    box-shadow: 1px 3px 40px rgba(0, 0, 0, 0.08);
+}
+.img{
+   
+    width: 536px;
+    border-radius: 12px;
+    background: #EAEEF3;
+    height: 670px;
+}
+.num{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.num h1{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+.num p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.75)
+}
+.video{
+    height: 566px;
+    width: 1141px;
+    border-radius: 12px;
+    background-color: #4C93FE;
+}
+.vvv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 66px;
+}
+.rate3{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.rate3 img{
+    width: 48px;
+    height: 48px;
+}
+.rate3 h1{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+} 
+.rate3 p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.box{
+    width: 55px;
+    height:352px;
+}
+.box title{
+    width: 474px;
+}
+.card2{
+    width: 1110px;  
+    height: 704px;
+}
+.Home_card__CXtjp{
+    width: 360px;
+}
+.video{
+    background-color: white;
+    border: 1px solid black;
+}
+.name img{
+    width: 310px;
+}
+.button1{
+    margin-top: 150px;
+} 
+
+.ant-card-body{
+    margin-top: 20px;
+}
+.num{
+    display: flex !important;
+}
+.div1{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+@media (max-width:1428px){
+    .card1{
+        display: flex;
+        justify-content: space-around;
+    }
+    .img img{
+        width: 300px !important;
+        height: 450px;
+    }
+    .rate{
+        width: 240px;
+        height: 200px;
+        margin-left: 200px;
+        margin-top: -120px;
+        padding: 0 !important;
+    }
+    .star{
+        display: none !important;
+    }
+    .p{
+        font-size: 12px !important;
+        width: 180px !important;
+        margin: 0 !important;
+    }
+    .rate1{
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+    .rate1 img{ 
+        width: 20px;
+        height: auto;
+    }
+    .rate h1{
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .rate1 p{
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .rate2{
+        margin-top:25px;
+    }
+    .blok2 p{
+        font-size: small;
+    }
+    .blok2 h1{
+        font-size: 20px;
+    }
+    .blok2 h5{
+        font-size: 15px;
+        width: 400px;
+    }
+    .tic{
+        margin-top: 10px;
+        width: 400px !important;
+    }
+    .tic img{
+        width: 15px;
+        height: auto;
+    }
+    .tic h2{
+        font-size: 17px;
+    }
+    .tic h6{
+        font-size: small;
+        width: 360px;
+    }
+    .blok2{
+        width: 450px !important;
+    }
+    .num{
+        display: flex !important;
+    }
+}
+
+
+
+@media (max-width:1279px){
+    .card1{
+        gap: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .video{
+        width: 80%;
+    }   .num{
+        display: flex !important;
+    }
+
+}
+@media (max-width:1196px){
+   .card1{
+       display: flex;
+       justify-content: space-around;
+   }
+   .video{
+       width: 80%;
+       height: 500px;
+   }
+   .num{
+       display: flex !important;
+   }
+}
+
+
+@media (max-width:1161px){
+   .ant-card-body{
+       width: 280px !important;
+       height: 120px !important;
+       margin-top: 20px;
+   }
+   .video{
+       width: 80%;
+   }
+   .card1{
+       gap: 10px;
+       display: flex;
+       justify-content: space-around;
+   } 
+   .card{
+       width: 300px !important;
+   }
+   .card img{
+           width: 250px;
+           height: auto;
+   }
+   .num{
+       display: flex !important;
+   }
+}
+
+@media (max-width:1138px){
+   .card1{
+       gap: 10px;
+       display: flex;
+       justify-content: space-around;
+   }
+   .card{
+       width: 300px !important;
+   }
+   .card img{
+           width: 250px;
+           height: auto;
+   }
+   .num{
+       display: flex !important;
+   }
+}
+@media (max-width:1127px){
+   .card2{
+       display: flex !important;
+       justify-content: space-around !important;
+       gap: 0 !important;
+       width: 1000px;
+       margin-top: 250px !important;
+   }
+   .card1{
+       flex-direction: column;
+   }
+   .button1{
+       margin-top: 250px;
+   }
+   .menu2{
+       margin-top: 50px;
+   }
+   .img img{
+       width: 300px !important;
+       height: 450px;
+   }
+   .rate{
+       width: 240px;
+       height: 200px;
+       margin-left: 200px;
+       margin-top: -120px;
+       padding: 0 !important;
+   }
+   .star{
+       display: none !important;
+   }
+   .p{
+       font-size: 12px !important;
+       width: 180px !important;
+       margin: 0 !important;
+   }
+   .rate1{
+       display: flex;
+       align-items: center;
+       margin: 0;
+   }
+   .rate1 img{ 
+       width: 20px;
+       height: auto;
+   }
+   .rate h1{
+       font-size: 12px;
+       line-height: 10px;
+   }
+   .rate1 p{
+       font-size: 10px;
+       line-height: 10px;
+   }
+   .blok2 p{
+       font-size: small;
+   }
+   .blok2 h1{
+       font-size: 20px;
+   }
+   .blok2 h5{
+       font-size: 15px;
+       width: 400px;
+   }
+   .tic{
+       margin-top: 10px;
+   }
+   .tic img{
+       width: 15px;
+       height: auto;
+   }
+   .tic h2{
+       font-size: 17px;
+   }
+   .tic h6{
+       font-size: small;
+       width: 360px;
+   }
+   .home h1{
+       font-size: 36px;
+       width: 600px;
+   }
+   .rate2{
+       margin: 0 !important;
+       margin-left: 20px !important;
+       margin-top: 20px !important;
+   }
+   .text h1{
+       font-size: 30px;
+   }
+   .num h1{
+       font-size: 30px;
+   }
+   .num p{
+       font-size: 15px;
+   }
+   .status{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+   .button button{
+       width: 200px;
+       height: 50px;
+       font-size: 20px;
+       margin-top: 20px;
+   }
+   .num{
+       display: flex !important;
+   }
+}
+
+@media (max-width:1120px){
+   .card2{
+       width: 800px;
+   }
+   .ant-card-body{
+       width: 250px !important;
+       height: 100px !important;
+       padding: 10px !important;
+       margin-top: 20px;
+   }
+   .ant-card-body img{ 
+       width: 100px !important;
+   }
+   /* .card1{
+       flex-direction: column;
+   }
+   .card2{
+       display: flex;
+       justify-content: space-around;
+       margin-top: 300px;
+   } */
+   .button1{
+       margin-top: 400px;
+   }
+   .num{
+       display: flex !important;
+   }
+}
+
+@media (max-width:1000px){
+   .body1 h1{
+       font-size: 30px !important;
+   }
+   .body1 h6{
+       font-size: 15px;
+   }
+   .num{
+       display: flex !important;
+   }
+}
+@media (max-width:1060px){
+   .menu2{
+       display: flex;
+       flex-direction: column !important;
+       align-items: center;
+       margin-top: 200px;
+   }
+   .block2{
+       margin-top: 100px;
+   }
+   .button1{
+       margin-top: 300px;
+   }
+   .card2{
+       margin-top: 250px;
+       width: 750px !important;
+   }
+   .num{
+       display: flex !important;
+   }
+}
+
+@media (max-width:830px){
+   .card2{
+       width: 650px;
+   }
+   .body1 h6{
+       font-size: 15px !important;
+   }
+   .blok1{
+       width: 500px !important;
+   }
+   .block2{
+       width: 500px;
+   }
+   .block2{
+       display: block;
+   }   
+   .menu2{
+       /* width: 500px !important; */
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       margin: 0 !important;
+       margin-top: 100px !important;
+       margin-right: 0 !important;
+   }
+   .num{
+       display: flex !important;
+   }
+}
+@media (max-width:770px){
+   .card2{
+       width: 620px !important;
+   }
+   .num{
+       display: flex !important;
+   }
+   .div1{
+       flex-direction: column;
+       gap: 20px;
+       width: 50%;
+   }
+}
+@media (max-width:640px){
+   .card2{
+       flex-direction: column !important;
+       margin-top: 900px !important;
+       margin-bottom: 550px !important;
+   }
+   .home h1{
+       font-size: 30px;
+       width:400px !important;
+   }
+   .card1{
+       width: 400px !important;
+   }
+   .button button{
+       width: 140px;
+       height: 40px;
+       font-size: 16px;
+   }
+   .button{
+       gap: 15px !important;
+   }
+   .rate1 p{
+       width: 100px;
+   }
+   .rate1 h1{
+       width: 100px;
+   }
+   .card2{
+       width: 400px !important;
+   }
+   .home{
+       width: 100% !important;
+   }
+   .menu1{
+       width: 400px !important;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+   .menu2{
+       width: 600px !important;
+   }
+   .text h1{
+       font-size: 16px;
+   }
+   .status h1{
+       font-size: 20px !important;
+   }
+   .status p{
+       font-size: 13px;
+   }    
+   .button1{
+       margin-top: 400px;
+   }  
+   .block2{
+       width: 400px !important;
+   } 
+   .blok1{
+       width: 400px !important;
+   }
+   .menu2{
+       width: 400px !important;
+       margin-left: 20px;
+   }
+   .img img{
+       width: 250px !important;
+       height: 400px !important;
+   }
+   .rate{
+       width: 210px;
+       height: 150px;
+       margin-left: 100px !important;
+       margin-top: -80px !important;
+   }
+   .rate1{
+       margin-top: 30px;
+   }
+   .p{
+       line-height: 15px !important;
+       font-size: 12px !important;
+   }
+   .blok2{
+       width: 350px !important;
+   }
+   .menu2{
+       width: 350px !important;
+   }
+   .block2{
+       width: 350px !important;
+   }
+   .block2 p{
+       font-size: 15px;
+   }
+   .block2 h1{
+       font-size: 17px !important;
+       width: 360px;
+   }
+   .block2 h5{
+       width: 370px !important;
+   }
+   .tic h2{
+       width: 150px;
+   }
+   .tic h6{
+       width: 300px;
+   }
+   .tic{
+       width: 300px !important;
+   } 
+   .img{
+       width: 350px !important;
+   }
+   .num{
+       display: flex !important;
+   }
+}
+
+@media (max-width:640px){
+   .home{
+       height: 500px !important;
+   }
+   .home h1{
+       margin-top: 170px !important;
+       text-align: center;
+   }
+   .menu1{
+       margin-left: 100px !important;
+   }
+   .menu2{
+       display: flex !important;
+       flex-direction: column !important;
+       align-items: center !important;
+       margin-left: 100px !important;
+   } 
+   .t2{
+       width: 400px !important;
+       text-align: center;
+   }
+   .num{
+       display: flex !important;
+   }
+}
+@media (max-width:615px){
+   .t2{
+       width: 400px !important;
+       text-align: center;
+   }
+   .home{
+       height: 500px !important;
+   }
+   .home h1{
+       margin-top: 170px !important;
+   }
+   .menu1{
+       margin-left: 100px !important;
+   }
+   .menu2{
+       display: flex !important;
+       flex-direction: column !important;
+       align-items: center !important;
+       margin-left: 100px !important;
+   }
+   .num{
+       display: flex !important;
+   }
+}
+@media (max-width:517px){
+   .home{
+       height: 500px !important;
+   }
+   .home h1{
+       margin-top: 170px !important;
+       font-size: 25px;
+       width: 300px;
+   }
+   .menu1{
+       margin-left: 50px !important;
+   }
+   .menu2{
+       display: flex !important;
+       flex-direction: column !important;
+       align-items: center !important;
+       margin-left: 60px !important;
+   }  
+   .num{
+       display: flex !important;
+   }
+}
+@media (max-width:560px){
+   .home{
+       height: 450px !important;
+   }
+   .home h1{
+       margin-top: 170px !important;
+       font-size: 25px;
+       width: 300px;
+   }
+   .menu1{
+       margin-left: 65px !important;
+   }
+   .menu2{
+       display: flex !important;
+       flex-direction: column !important;
+       align-items: center !important;
+       margin-left: 45px !important;
+   }  
+   .num{
+       display: flex !important;
+   }
+}
+
+@media (max-width:517px){
+   .home{
+       height: 450px !important;
+   }
+   .home h1{
+       margin-top: 170px !important;
+       font-size: 25px;
+       width: 300px;
+   }
+   .menu1{
+       margin-left: 50px !important;
+   }
+   .menu2{
+       display: flex !important;
+       flex-direction: column !important;
+       align-items: center !important;
+       margin-left: 50px !important;
+   }  
+   .num{
+       display: flex !important;
+   }
+}
+
+@media (max-width:485px){
+   .home{
+       height: 450px !important;
+   }
+   .home h1{
+       margin-top: 170px !important;
+       font-size: 25px;
+       width: 300px;
+   }
+   .menu1{
+       margin-left: 30px !important;
+   }
+   .menu2{
+       display: flex !important;
+       flex-direction: column !important;
+       align-items: center !important;
+       margin-left: 30px !important;
+   }  
+   .num{
+       display: flex !important;
+   }
+}
+
+@media (max-width:454px){
+   .home{
+       height: 450px !important;
+   }
+   .home h1{
+       margin-top: 170px !important;
+       font-size: 25px;
+       width: 300px;
+   }
+   .menu1{
+       margin-left: 10px !important;
+   }
+   .menu2{ 
+       display: flex !important;
+       flex-direction: column !important;
+       align-items: center !important;
+       margin-left: 10px !important;
+   }  
+   .num{
+       display: flex !important;
+   }
+}
+
+@media (max-width:427px){
+   .home{
+       height: 450px !important;
+   }
+   .home h1{
+       margin-top: 170px !important;
+       font-size: 25px;
+       width: 300px;
+   }
+   .t2{
+       font-size: 20px;
+       width: 350px !important;
+   }
+   .menu1{
+       margin-left: -20px !important;
+   }
+   .menu2{
+       display: flex !important;
+       flex-direction: column !important;
+       align-items: center !important;
+   }  
+   .blok2 h1{
+       font-size: 15px !important;
+   }
+   .blok2 h5{
+       width: 350px !important;
+   }
+   .blok1{
+       width: 350px !important;
+   }
+
+
+}
+
+@media (max-width:417px){
+   .home h1{
+       line-height: 30px;
+       font-size: 20px;
+       width: 300px !important;
+       margin-top: 150px;
+   }
+ .home{
+   height: 600px;
+ }
+ .blok1{
+   margin-left: 0px !important;
+ }
+ .video{
+   height: 200px;
+ }
+}
+/* @media (max-width:400px){
+    .menu1{
+        flex-direction: column;
+    }
+    .card1{
+        flex-direction: column;
+    }
+    .card2{
+        flex-direction: column;
+        margin-top: 90px;
+    }
+    .button1{
+        margin-top: 1000px;
+    }
+    .home{
+        background-image: url(../img/room.png);
+        width: 100%;
+        height: 300px; 
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        background-size: cover;  
+    }
+    .home h1{
+        font-family: 'Rubik',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 32px;
+        color: white;
+        width: 302px;
+        text-align: center;
+        margin-top: 120px;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 26px;
+    }
+    .button button{
+        background: #4C93FE;
+        border-radius: 4px;
+        height: 30px;
+        width: 100px;
+        border: none;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        color: white;
+        margin-top: 21px;
+    }
+    .menu1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card1{
+        flex-direction: column;
+    }
+    .t{
+        margin-top: 20px;
+        line-height: 15px;
+    }
+    .t1{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .t2{
+        font-size: 12px;
+        text-align: center;
+        line-height: 19px;
+    }
+    .button1{
+        width: 160px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .video{
+        width: 100%;
+        height: auto;
+    }
+    .card img{
+        width: 93%;
+        height: auto;
+    }
+    .img img{
+        width: 50%;
+        height: 300px;
+        margin-left: 30px;
+    }
+    .p{
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .rate1 img{
+        width: 25px;
+        height: auto;
+    }
+    .rate1 h1{
+        font-size: 10px;
+        margin: 0;
+        line-height: 10px;
+    }
+    .star{
+        display: none !important;
+    }
+    .rate2 p{
+        line-height: 15px;
+        font-size: 10px;
+        width: 130px;
+        margin-left: -30px;
+        margin-top: -27px;
+    }
+    .rate1{
+        margin-top: -0px;
+        margin-left: -25px;
+    }
+    .rate1 p{
+        font-size: 10px;
+        margin: 0;
+        line-height: 15px;
+    }
+    .rate{
+        position: absolute;
+        width: 45%;
+        height: 150px;
+        margin-left: 100px;
+        margin-top: 250px;
+    }
+    .menu2{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .block2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .blok2 p{   
+        font-size:15px;
+        margin-top: 60px;
+    }
+    .blok2 h1{
+        width: 300px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .blok2 h5{
+        font-size: 15px;
+        width: 300px;
+        line-height: 25px;
+        
+    }
+    .tic h2{
+        font-size: 20px;
+    }
+    .tic h6{
+        font-size: 15px;
+        width: 300px;
+    }
+    .tic img{
+        width: 20px;
+        height: auto;
+    }
+    .status h1{
+        font-size: 20px;
+    }
+    .status p{
+        font-size: 20px;
+    }
+    .num{
+        width: 320px;
+        flex-direction: column;
+    }
+    .name{
+        width: 320px !important;
+    } */
+    /* .ant-card-body{
+        width: 320px !important;
+    }
+    footer{
+        display: none;
+    }
+    .blok1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .text{
+        margin-top: 150px;
+    }
+    .text h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .num{
+        text-align: center;
+    }
+} */

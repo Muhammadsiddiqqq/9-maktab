@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&family=Inter&family=Raleway:wght@500&family=Rubik:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&family=Inter:wght@200&family=Raleway:wght@500&family=Rubik:wght@600&display=swap');
+ 
+ 
+ footer{
+    height: 513px;
+    width: 100%;
+    background-color: #0C1D51;
+    margin-top: 50px;
+    display: block;
+ } 
+ .footer1 h1{
+   font-family: 'Raleway',sans-serif;
+   font-style: normal; 
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 28px;
+   letter-spacing: 0.075px;
+   color: white;
+   padding-top: 70px;
+ }
+ .footer2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+ } 
+ .footer2 h2{
+   font-family: 'Raleway',sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 21px;
+   color: white;
+ }
+ .footer2 p{
+   font-family: 'Inter', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   color: white;
+   margin-top: 20px;
+ }
+ .footer3{
+   font-family: 'Inter', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   color: white;
+ }
+ .footer4{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 70px;
+ }
+ .div1{
+   width: 90%;
+   height: 1px;
+   background-color: white;
+   justify-content: center;
+ }
+ .footer5{
+  display: none;
+ }
+ .div2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ .footer1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ @media (max-width:400px){
+    footer{
+      display: none;
+    }
+    .footer5{ 
+      display: block;
+      height: 253px;
+      width: 100%;
+      background-color: #0C1D51;
+      margin-top: 50px;
+      display: block;
+    }
+    .footer1 h1{
+      font-family: 'Raleway',sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 15px;
+      letter-spacing: 0.075px;
+      color: white;
+      padding-top: 20px;
+      margin-left: 20PX;
+    }
+    .div1{
+      width: 90%;
+      height: 1px;
+      background-color: white;
+      justify-content: center;
+      margin-left: 10px;
+    }
+    .sell{
+      width: 110px;
+      height: 30px;
+      background-color: aquamarine;
+      color:blue;
+    }
+    .opt{
+      font-size: large;
+      color:red;
+    }
+    .sell1{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 50px;
+    }
+    .sell2{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+ }
+
+ @media (max-width:915px){
+  .footer1 h1{
+    font-size: 20px;
+  }
+  .footer2 h2{  
+    font-size: 20px;
+  }
+  .footer2 p{
+    font-size: 12px;
+  }
+  .footer3{
+    font-size: 13px;
+  }
+  .div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ }
+
+@media (max-width:800px){
+  .footer5{
+    display: block;
+    height: 513px;
+    width: 100%;
+    background-color: #0C1D51;
+    margin-top: 50px;
+    display: block;
+  }
+
+  footer{
+    display: none;
+  }
+  .footer1{
+    display: flex;
+    justify-content: center;
+  }
+  .sell1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+  }
+  .sell2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+  .sell{
+    width: 150px; 
+    height: 30px;
+    border: none;
+    background-color:deepskyblue;
+    color: white;
+  }
+}
+@media (max-width:700px){
+  footer{
+    display: none;
+  }
+  .footer1{
+    display: flex;
+    justify-content: center;
+  }
+  .sell1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+  }
+  .sell2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+  .sell{
+    width: 150px; 
+    height: 30px;
+    border: none;
+    background-color:deepskyblue;
+    color: white;
+  }
+  .footer5{
+    display: block;
+    height: 513px;
+    width: 100%;
+    background-color: #0C1D51;
+    margin-top: 50px;
+    display: block;
+  }
+}
+ @media (max-width:520px){
+      .sell{
+        width: 100px;
+      }
+      .footer5{
+        display: block;
+        height: 513px;
+        width: 100%;
+        background-color: #0C1D51;
+        margin-top: 50px;
+        display: block;
+      }
+      .footer5{
+        height: 400px;
+      }
+      .sell1{
+        margin-top: 100px;
+      }
+      .sell2{
+        margin-top: 80px;
+      }
+}

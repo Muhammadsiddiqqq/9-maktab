@@ -1,0 +1,285 @@
+.menu1{
+    background-image: url(../img/contact.png);
+    width: 100%;
+    height: 880px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .block2{
+   outline: 0;
+ }
+ .menu1 h1{ 
+    font-family: 'Rubik',sans-serif;
+    font-style: normal; 
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    color: white;
+    width: 1200px; 
+    text-align: center;
+ }
+ .btn2{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+.btn2 button{
+    background: #4C93FE;
+    border-radius: 4px;
+    height: 49px;
+    width: 266px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.div3{
+   display: flex;
+   align-items: center;
+}
+.block1{
+   width: 400px;
+}
+.block2{
+   flex-direction: column !important;
+   width: 600px;
+}
+.menu2{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.card1{
+   margin-top: 30px;
+}
+.h1{
+   font-family: 'Inter', sans-serif;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 24px;
+   line-height: 15px;
+   color: #3476F5;
+   margin-top: 18px;
+}
+.h2{
+   font-family: 'Poppins', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 32px;
+   line-height: 48px;
+   letter-spacing: 0.075px; 
+   color: black;
+   width: 226px;
+   margin-top: 18px;
+}
+.h3{
+   font-family: 'Poppins', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 54px;
+   margin-top: 23px;
+}
+.input{
+   height: 76px;
+   width: 601px;
+   border-radius: 6px;
+   border: none;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px #0085FF;
+   font-family: 'Inter', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 17px;
+   line-height: 20px;
+   margin-top: 15px;
+}
+.block1 img{
+   width: 350px;
+}
+.text{
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px #0085FF;
+   height: 274px;
+   width: 601px;
+   border-radius: 6px;
+   font-family: 'Inter', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 17px;
+   line-height: 20px;
+   margin-top: 15px;
+   padding: 10px;
+}
+.btn{
+   background: #4C93FE;
+   border-radius: 4px;
+   height: 65px;
+   width: 296px;
+   border-radius: 4px;
+   border: none;
+   color: white;
+   font-size: 20px;
+   margin-top:15px;
+}
+
+
+@media (max-width:1220px){
+   .menu1 h1{
+      width: 500px;
+   }
+   .btn2 button{
+      width: 200px;
+   }
+}
+
+@media (max-width:1200px){
+   .card2{
+      width: 800px;
+      height: 530px;
+      padding-bottom: 40px !important;
+   }
+   .block1 img{
+      width: 250px;
+      height: auto;
+   }
+   .h1{
+      font-size: 25px;
+      margin-top: 15 !important;
+      line-height: 35px;
+   }
+   .h2{
+      font-size: 25px;
+      margin-top: 15 !important;
+      line-height: 35px;
+   }
+   .h3{
+      font-size: 25px;
+      margin-top: 15 !important;
+      line-height: 35px;
+   }
+   .input{
+      width: 400px;
+      height: 50px;
+      font-size: 15px;
+      padding: 10px;
+   }
+   .text{
+      width: 400px;
+      height: 200px;
+      font-size: 15px;
+   }
+   .btn{
+      width: 200px;
+      height: 50px;
+   }
+}
+
+@media (max-width:950px){
+   .card2{
+      width: 550px;
+      height: 800px;
+   }
+   .div3{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .block2{
+      flex-direction: column ;
+      width: 400px;
+      text-align: center;
+   }
+   .block1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .h1{
+      font-size: 20px;
+      line-height: 20px;
+   }
+   .h2{
+      text-align: center;
+      font-size: 20px;
+      line-height: 20px;
+   }
+   .h3{
+      width: 220px;
+      text-align: center;
+      font-size: 20px;
+      line-height: 20px;
+   }
+   .inp{
+      display: flex !important;
+      gap:20px !important;
+   }
+   .input{
+      width: 200px;
+   }
+   .text{
+      width: 420px;
+   }
+   .btn{
+      width: 150px;
+      height: 40px;
+   }
+}
+
+@media (max-width:800px){
+   .menu1{
+      height: 500px;
+      padding-top: 200px;
+   }
+   .menu1 h1{
+      font-size: 40px;
+   }
+   .btn2 button{
+      width: 120px;
+      font-size: 18px;
+   }
+}
+
+@media (max-width:650px){
+   .menu1{
+      height: 350px;
+      padding-top: 170px;
+   }
+   .menu1 h1{
+      font-size: 30px;
+      width: 260px;
+      line-height: 35px;
+   }
+   .block1{
+      width: 380px;
+   }
+   .btn2 button{
+      width: 120px;
+      height: 35px;
+      font-size: 18px;
+   }
+   .card2{
+      width: 380px;
+      height: 800px;
+   }
+   .card1{
+      width: 380px;
+      height: 800px;
+   }
+   .inp{
+      flex-direction: column;
+   }
+   .inp input{
+      width: 240px;
+   }
+   .text{
+      width: 240px;
+      height: 140px;
+   }
+   .block2{
+      width: 220px;
+      text-align: center;
+   }
+}

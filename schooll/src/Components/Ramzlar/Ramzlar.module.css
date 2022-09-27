@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Raleway:wght@600&family=Rubik:wght@500&display=swap');
+.menu1{
+  background-image: url(../img/uzb.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 841px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 380px;
+  background-attachment: fixed;
+}
+.menu1 h1{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px; 
+  color: white;
+  width: 872px;
+  text-align: center;
+}
+.menu2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.menu2 p{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #3476F5;
+  margin-top: 50px;
+}
+.menu2 h1{
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+  .h1{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+  .h1 h1{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px; 
+    line-height: 43px;
+  }
+  .card1{
+    margin-top: 40px;
+  }
+  .menu3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card1 p{
+    width: 1265px;
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin-top: 20px;
+  }
+.btn5{
+  display: none;
+}
+
+.menu4{
+  margin-top: 50px;
+}
+
+  @media (max-width:1400px){
+    .menu1{
+      padding-top:300px ;
+      height: 700px;
+    }
+    .menu1 h1{
+      font-size: 50px;
+    }
+    .menu2 h1{
+      font-size:30px ;
+    }
+    .card5{
+      width: 1000px;
+    }
+    .card5 p{
+      font-size: 15px;
+      width: 900px !important;
+    }
+}
+
+
+@media (max-width:1050px){
+  .menu1{
+    padding-top:300px ;
+    height: 600px;
+  }
+  .menu1 h1{
+    font-size: 35px;
+    width: 600px;
+  }
+  .menu2 p{
+    font-size: 20px !important;
+  }
+  .menu2 h1{
+    font-size:25px ;
+  }
+  .card5{
+    width: 700px;
+    height: auto;
+  }
+  .card5 p{
+    display: none;
+  }
+  .btn5{
+    display: block;
+    width: 250px;
+    height: 50px;
+    border: none;
+    background-color: #3476F5;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width:800px){
+  .menu1{
+    padding-top:200px ;
+    height: 500px;
+  }
+  .menu1 h1{
+    font-size: 30px;
+  }
+  .menu2 h1{
+    font-size:20px ;
+  }
+  .card5{
+    width: 600px;
+  }
+  .btn5{
+    width: 170px;
+    height: 40px;
+    margin-top: 50px;
+  }
+  .h1 h1{
+    font-size: 30px;
+  }
+  .h1 img{
+    width: 150px;
+    height: auto;
+  }
+}
+
+@media (max-width:670px){
+  .menu1{
+    padding-top:150px ;
+    height: 400px;
+  }
+  .menu1 h1{
+    font-size: 30px;
+    width: 380px;
+  }
+  .menu2 p{
+    font-size: 18px !important; 
+  }
+  .menu2 h1{
+    font-size:18px;
+  }
+  .card5{
+    width: 500px;
+  }
+  .btn5{
+    width: 170px;
+    height: 40px;
+    margin-top: 30px;
+  }
+  .h1 h1{
+    font-size: 25px;
+  }
+  .h1 img{
+    width: 125px;
+    height: auto;
+  }
+}
+
+
+@media (max-width:600px){
+  .card5{
+    width: 380px;
+  }
+  .h1 h1{
+    font-size: 15px;
+  }
+  .h1 img{
+    width: 100px;
+    height: auto;
+  }
+  .btn5{
+    width: 120px;
+    height: 35px;
+    margin-top: 30px;
+    font-size: 15px;
+  }
+  .menu2 p{
+    font-size: 15px !important;
+  }
+  .menu2 h1{
+    font-size: 15px !important;
+    width: 300px !important;
+  }
+}
+
